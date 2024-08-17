@@ -1,0 +1,181 @@
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+
+}
+
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+
+
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 80%;
+}
+
+#clock {
+
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 90px;
+    font-size: 200px;
+    font-weight: 400;
+    color: white;
+}
+
+#login-form {
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    height: 200px;
+
+    text-align: center;
+    background-color: transparent;
+
+}
+
+#login-form input::placeholder {
+    font-size: 30px;
+}
+
+#greeting {
+    position: absolute;
+    top: 450px;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+
+}
+
+
+
+ul {
+    position: absolute;
+    top: 65%;
+    width: 480px;
+    height: 25%;
+    margin-left: 720px;
+    max-width: 500px;
+
+
+    border-radius: 30px;
+    overflow: auto;
+
+}
+
+
+
+
+
+li {
+    line-height: 2;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+
+}
+
+
+
+
+#quote span:first-child {
+
+    position: absolute;
+    top: 90%;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+
+}
+
+#quote span:last-child {
+
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+#todo-form {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    margin-left: 10px;
+    text-align: center;
+
+
+}
+
+
+.done-button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 20px;
+}
+
+#todo-form input[type=text] {
+    font-size: 20px;
+
+}
+
+
+input[type=text] {
+    width: 400px;
+    height: 60px;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    text-decoration: white;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+
+
+}
+
+input::placeholder {
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+
+    padding-bottom: 5px;
+}
+
+
+#quote {
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#weather {
+    position: absolute;
+
+    width: 100%;
+    margin-left: 85%;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
